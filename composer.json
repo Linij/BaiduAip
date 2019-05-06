@@ -18,9 +18,6 @@
         "php": ">=7.0.0"
     },
     "autoload": {
-        "classmap": [
-            "Lib/"
-        ],
         "psr-4": {
             "Linij\\BaiduAip\\": "src/"
         }

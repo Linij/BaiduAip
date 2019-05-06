@@ -14,8 +14,11 @@
 * License for the specific language governing permissions and limitations under
 * the License.
 */
+namespace Linij\BaiduAip;
 
-require_once 'Lib/AipBase.php';
+
+use Linij\BaiduAip\Lib\AipBase;
+
 class AipImageClassify extends AipBase {
 
     /**
