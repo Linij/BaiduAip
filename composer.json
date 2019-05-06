@@ -1,0 +1,28 @@
+{
+    "name": "linij/baiduaip",
+    "description": "baidu ocr aip",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "baidu",
+        "aip"
+    ],
+    "authors": [
+        {
+            "name": "linji",
+            "email": "237525603@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "classmap": [
+            "Lib/"
+        ],
+        "psr-4": {
+            "Linij\\BaiduAip\\": "src/"
+        }
+    }
+}
