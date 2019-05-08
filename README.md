@@ -6,6 +6,6 @@
 ```
 
  $ocr = new AipOcr($appId, $apiKey, $secretKey);
- $ocr->receipt($imagePath);
+ $ocr->receipt(file_get_contents($imagePath));
 
 ```
