@@ -17,9 +17,6 @@
 
 namespace Linij\BaiduAip\Lib;
 
-require_once 'AipHttpClient.php';
-require_once 'AipBCEUtil.php';
-
 /**
  * Aip Base 基类
  */
