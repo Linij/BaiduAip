@@ -1,13 +1,20 @@
-# BaiduAip
-百度图片识别相关的包
+# Baidu Aip picture recognition
 
-使用
+> Give the Aip namespace in PHP 7.0+ 
 
-```
+## Features
 
+- PHP7.0 + 
+- Namespace
+- Package Management By Composer
+
+## Installation
+
+- `composer require linij/baiduaip`
+
+## Usage
+
+```php
  $ocr = new AipOcr($appId, $apiKey, $secretKey);
  $ocr->receipt(file_get_contents($imagePath));
-
 ```
-
-其他的Aip接口也是类似的用法，直接传入所有配置之后获取对象后调用即可。
