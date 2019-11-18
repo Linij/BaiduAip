@@ -2,7 +2,7 @@
     "name": "linij/baiduaip",
     "description": "baidu ocr aip",
     "type": "library",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "keywords": [
         "laravel",
         "baidu",
