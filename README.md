@@ -10,7 +10,7 @@
 
 ## Installation
 
-- `composer require linij/baiduaip`
+`composer require linij/baiduaip`
 
 ## Usage
 
